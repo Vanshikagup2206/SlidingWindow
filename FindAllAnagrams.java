@@ -15,7 +15,6 @@ public class FindAllAnagrams {
         int left = 0;
         int[] freqS = new int[26];
         List<Integer> result = new ArrayList<>();
-        int index = 0;
         for(int right = 0; right < s.length(); right++){
             freqS[s.charAt(right) - 'a']++;
 
